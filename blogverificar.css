@@ -15,7 +15,7 @@
     padding: 0%;
 }
 body {
-    background-color: var(--cor0);
+    background-color: white;
 
 
 }
@@ -25,7 +25,6 @@ header {
     text-align: center;
     padding-top: 40px;
     min-height: 150px;
-    max-width: 820px;
     margin: auto;
 
 } 
@@ -104,6 +103,12 @@ ul {
 li {
     font: var(--fontePadrao);
     font-size: 1,2em;
+}
+img#bigimg {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    
 }
 footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
