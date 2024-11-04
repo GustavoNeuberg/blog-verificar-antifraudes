@@ -114,7 +114,7 @@ footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     max-width: 800px;
     margin: auto;
-    border-radius: 6px;
+    border-radius: 5px;
     color: white;
     font-size: bold;
     text-align: center;
