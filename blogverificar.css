@@ -48,7 +48,7 @@ nav {
     text-align: justify;
     padding: 10px;
     margin: auto;
-    max-width: 800px;
+    
 }
 nav > a {
     color: white;
@@ -104,12 +104,15 @@ li {
     font: var(--fontePadrao);
     font-size: 1,2em;
 }
-img#bigimg {
-    width: 100%;
-    height: 50%;
-    border-radius: 10px;
-    
+section.imgblog {
+    height: 450px;
+    background-image: url(img/imgblog.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
 footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     max-width: 800px;
